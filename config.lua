@@ -11,7 +11,7 @@ Config.Notify = function(text)
     ESX.ShowNotification(text)
 end
 Config.Debug = false
-
+Config.NeedsItem = false
 Config.Reward = { -- Reward for opening the container
     ["money"] = {min = 100, max = 500},
     ["item"] = {name = "saw", min = 1, max = 3},
